@@ -68,6 +68,17 @@ a{
     width: 100px;
     height: 100px;
 }
+.forms{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+.content{
+    width: 640px;
+    height: 979px;
+}
 .seta{
     display: flex;
     flex-direction: row-reverse;
