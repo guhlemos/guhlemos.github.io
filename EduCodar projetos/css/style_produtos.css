@@ -1,0 +1,96 @@
+/* PAGE RESET */
+*{
+    margin: 0px;
+    padding: 0px
+}
+/* PAGE CSS */
+.layout{
+    width: auto;
+    height: 1020px;
+    background-color: #000978;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#menu{
+    height: 80px;
+    color: azure;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    font-family: Verdana;
+    font-variant: small-caps;
+}
+.ul li{
+    list-style: none;
+    display: inline;
+    padding-right: 60px;
+    padding-left: 60px;
+    font-size: 15pt;
+}
+a{
+    text-decoration: none;
+    color: azure;
+}
+.logo{
+    display: flex;
+    align-content: center;
+    margin-top: 100px;
+
+}
+.text{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: auto;
+    height: 1020px;
+    color: #757575;
+    font-size: 40px ;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 2.5;
+
+}
+.paragrafo{
+    margin: 100px 100px 100px 100px;
+}
+.seta{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 300px;
+
+}
+.seta_img{
+    width: 30px;
+    height: 35px;
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+    background-color: #f5f5f5;
+    width: auto;
+    height: 250px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #757575;
+}
+.link{
+    text-decoration: none;
+    color: #757575;
+}
+.network{
+    margin-left: 45px;
+    padding-top: 30px;
+    width: 30px;
+    height: 30px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: 10px;
+}
